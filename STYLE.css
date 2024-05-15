@@ -1,0 +1,1446 @@
+#empty{
+    width: 100%;
+    height: 12px;
+}
+#p{color: orange;
+font-size: 20px;
+font-weight: bolder;
+padding-right: 650px;
+font-family: "Lobster", sans-serif;
+}
+#head{
+    color: white;
+    height: 50px;
+    width: 98%; 
+    display: flex;
+    justify-content: right;
+    background-color: #34333e;
+    z-index: 1;
+position:fixed;
+    top: 0;
+    left: 2px; right: 2px;
+   border-radius: 4px;
+  padding-right: 80px;
+}
+#b1{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+#button1{
+    width: 120px;
+    height: 40px;
+    background-color:  orangered;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    
+}
+#but1{
+    text-decoration: none;
+    color: white;
+}
+#ll{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+#ll:hover{
+    color: orange;
+
+}
+#button1:hover{
+    background-color: orange;
+}
+select{
+    border:0 #34333e;
+    background-color:#34333e ;
+    color: white;
+    
+
+}
+
+
+#pizza{ 
+    width: 100%;
+    height: 650px;
+    top: 30px;
+    display: flex;
+    justify-content: right;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 6)), url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* #pizza2 {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    background-image: linear-gradient(rgb(24, 24, 45),darkblue); 
+
+   
+}
+#l55{
+}
+ */
+
+#welc{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    align-items: left;
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+#welc1{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    align-items: left;
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+#welc::first-letter{
+    color: orange;
+}
+#description{
+    position: absolute;
+    top:300px ;
+    left: 40px;
+    color: orange;
+    font-size: large;
+    font-weight: bold;
+}
+#about{
+    margin: 50px;
+    width: 95%;
+    height: 250px;
+    /* background-color: blue; */
+    display: flex;
+}
+.about1{
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+background-color:antiquewhite;
+align-content: center;
+align-self: center;
+border: 1px solid rgb(231, 228, 228);
+box-shadow: 1px 1px 1px #bab9be;
+}
+#b{padding-left: 60px;
+font-size: larger;
+}
+#b2{padding-left:85px ;
+font-size: larger;}
+
+
+.about2{
+    position: relative;
+    overflow: hidden;
+   
+
+}
+
+
+.span1{
+    transition-duration: 1s;
+
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: rgb(8, 6, 80);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    padding: 10px 10px;
+    color: rgb(255, 254, 254);
+    font-size: 20px;
+    font-weight: bolder;
+    background-image:url(chief1.jpg) ;
+    background-size:450px ;
+}
+.about2:hover .span1{
+    
+    top: 0;
+
+}
+
+.about3{
+    position: relative;
+    overflow: hidden;
+}
+
+
+#span2{transition-duration: 1s;
+
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: rgb(8, 6, 80);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bolder;
+    background-image:url(iso.jpg) ;
+    background-size:220px ;
+}
+.about3:hover #span2{
+    top: 0;
+}
+
+.about4{
+
+    position: relative;
+    overflow: hidden;
+}
+
+    #span3{ transition-duration: 1s;
+
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+        width: 240px;
+        height: 240px;
+        padding: 10px 10px;
+        color: rgb(24, 2, 2);
+        font-size: 20px;
+        font-weight: bolder;
+        background-image:url(delvery.jpg) ;
+        background-size:200px ;
+        background-repeat:no-repeat ;
+        }
+
+        .about4:hover #span3{
+            top: 0;
+        }
+        .about5{
+            position: relative;
+            overflow: hidden;
+        }
+
+    #span4{ transition-duration: 1s;
+
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+        width: 240px;
+        height: 240px;
+        padding: 10px 10px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bolder;
+        background-image:url(serv2.jpg) ;
+        background-size:320px ;
+        background-repeat:no-repeat ;
+    }
+    .about5:hover #span4{
+        top: 0;
+    }
+    #topic{
+        margin: 100px;
+        display: flex;
+    }
+
+    #photos{
+        width: 600px;
+        height: 600px;
+        background-color: bisque;
+    }
+    #img1{
+        box-shadow: 15px 10px 10px 0px black;
+    }
+    #img2{
+        padding-left: 10px;
+        box-shadow: 15px 10px 10px 0px black;
+/* background-color:black; */
+
+        width: 200px;
+
+    }
+    #img3{
+        margin-left: 75px;
+        /* background-color: black; */
+        box-shadow: 15px 10px 10px 0px black;
+    }
+#img4{
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 15px 10px 10px 0px black;
+
+}
+
+
+#main-des{
+    position: relative;
+    margin: 40px;
+    width: 600px;
+    height: 500px;
+    background-color: bisque;
+}
+#span5{
+    color: orange;
+padding-left: 20px;
+font-size: large;
+font-family: "Caveat", cursive;
+}
+#span6{
+    position: absolute;
+    top: 17px;
+  left: 93px;
+    width: 40px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: orange;
+}
+#w3::first-letter{
+    color: orange;
+}
+#b3{
+    padding-left: 10px;
+    font-weight: bold;
+}
+#b4{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#span7{
+    position: absolute;
+    top: 380px;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    transform: rotate(90deg);
+}
+#span8{
+    position: absolute;
+    top: 355px;
+    left: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: orange;
+}
+#span9{
+    position: absolute;
+    top: 365px;
+    left: 80px;
+}
+#span10{
+    position: absolute;
+    top: 385px;
+    left: 90px;
+    /* font-weight: 50px; */
+}
+#span11{
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    top: 380px;
+left: 350px;
+transform: rotate(90deg);
+}
+#span12{
+    position: absolute;
+    top: 355px;
+    left: 385px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: orange;
+}
+#span13{
+    position: absolute;
+    top: 365px;
+    left: 435px;
+}
+#span14{
+    position: absolute;
+    top: 380px;
+    left: 445px;
+    font-weight: bolder;
+}
+
+#menu-list{display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#food-menu{
+    font-family: "Dancing Script", cursive;
+    color: orange;
+    font-size: 35px;
+    font-weight: bolder;
+
+   
+}
+#span15{
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    left: 41%;
+    top: 55px;
+}
+#span16{
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    left: 55.5%;
+    top: 57px;
+}
+#span17{
+    position: absolute;
+    top: 80px;
+    left: 550px;
+    font-size: 20px;
+}
+#span18{
+    position: absolute;
+    top: 100px;
+    left:560px ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#span19{
+    position: absolute;
+    top:80px ;
+    left: 730px;
+    font-size: 20px;
+
+}
+#span20{
+    position: absolute;
+    top:100px ;
+    left: 740px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#span21{
+    position: absolute;
+    top: 80px;
+    left: 870px;
+    font-size: 20px;
+}
+#span22{
+    position: absolute;
+    top: 100px;
+    left: 880px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#span23{
+    position: absolute;
+    top: 140px;
+    left: 540px;
+    width: 430px;
+    height: 2px;
+    background-color: #000000;
+}
+#span24{
+    position: absolute;
+    top: 140px;
+    left: 540px;
+    width: 150px;
+    height: 3px;
+    background-color: orange;
+}
+#menu{
+    padding-top: 100px;
+    width: 450px;
+    position: relative;
+    margin-left: 100px;
+
+    
+}
+#span25{
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span26{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 160px;
+    top: 170px;
+}
+#span27{
+    position: absolute;
+    top: 190px;
+    left: 160px;
+}
+#menu2{
+    padding-top: 10px;
+}
+
+
+#span28{
+    position: absolute;
+    top: 270px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span29{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 160px;
+    top: 320px;
+}
+#span30{
+    position: absolute;
+    top: 340px;
+    left: 160px;
+}
+#menu3{
+    padding-top: 10px;
+}
+#span31{
+    position: absolute;
+    top: 450px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span32{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 160px;
+    top: 500px;
+}
+#span33{
+    position: absolute;
+    top: 520px;
+    left: 160px;
+}
+#menu4{
+    padding-top: 10px;
+}
+#span34{
+    position: absolute;
+    top: 615px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span35{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 160px;
+    top: 660px;
+}
+#span36{
+    position: absolute;
+    top: 680px;
+    left: 160px;
+}
+#span37{
+    position: absolute;
+    top: 135px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+#span38{
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+
+#span39{
+    position: absolute;
+    top: 455px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+#span40{
+    position: absolute;
+    top: 620px;
+    left: 600px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+#mn{display: flex;}
+
+
+#mn2{
+    position: relative;
+    padding-left: 240px;
+    padding-top: 100px;
+    width: 500px;
+}
+#span41{
+    position: absolute;
+    top: 130px;
+    left: 420px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span42{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 420px;
+    top: 170px;
+}
+#span43{
+    position: absolute;
+    top: 170px;
+    left: 420px;
+}
+#breakfast{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    color: red;
+    font-weight: bolder;
+}
+#span44{
+    position: absolute;
+    top: 135px;
+    left: 860px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+
+#menu5{padding-top: 10px;}
+
+#span45{
+    position: absolute;
+    top: 270px;
+    left: 420px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span46{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 420px;
+    top: 320px;
+}
+#span47{
+    position: absolute;
+    top: 340px;
+    left: 420px;
+}
+#span48{
+    position: absolute;
+    top: 280px;
+    left: 860px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+
+#menu6{
+    padding-top: 10px;
+}
+#span49{
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span50{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 420px;
+    top: 500px;
+}
+#span51{
+    position: absolute;
+    top: 520px;
+    left: 420px;
+}
+#span52{
+    position: absolute;
+    top: 460px;
+    left: 850px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+
+#menu7{
+    padding-top: 10px;
+}
+#span53{
+    position: absolute;
+    top: 615px;
+    left: 420px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#span54{
+    position: absolute;
+    width: 500px;
+    height: 1px;
+    background-color: rgb(49, 37, 37);
+    left: 420px;
+    top: 660px;
+}
+#span55{
+    position: absolute;
+    top: 680px;
+    left: 420px;
+}
+#span56{
+    position: absolute;
+    top: 615px;
+    left: 850px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: orange;
+}
+
+
+#form{
+    position: relative;
+    display: flex;
+    margin:100px;
+    background-color: #34333e;
+    width: 700px;
+}
+#span57{
+    position: absolute;
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 45%;
+    left: 45%;
+}
+#span58{
+    position: absolute;
+    top: 48.5%;
+    left: 47%;
+    width: 45px;
+    height: 45px;
+    background-color: #000000;
+    transform: rotate(135deg);
+}
+#span59{
+    width: 35px;
+    height: 70px;
+    background-color: orange;
+    position: absolute;
+    top: 46%;
+    left: 45.7%;
+    border-radius: 32px 0 0 32px;
+}
+
+
+
+#span60{
+    color: orange;
+    font-size: 25px;
+    font-weight: bolder;
+padding-left: 40px;
+padding-top: 40px;
+font-family: "Dancing Script", cursive;
+}
+
+#span61{
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: orange;
+    left: 150px;
+    top: 60px;
+}
+
+#span62{
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 140px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+#all{
+
+    position: relative;
+}
+
+#form1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 800px;
+    width: 600px;
+    height: 500px;
+    background-color: #34333e;
+}
+#text{
+    padding:15px 15px;
+}
+#email{
+    padding:15px 15px;
+}
+#date{
+    padding:15px 15px;
+}
+#form-dec{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#ff{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+
+}
+#select1{
+    background-color: white;
+    color: #000000;
+    width: 195px;
+    height: 47px;
+}
+
+#button-dec{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#text2{
+    width: 400px;
+    height: 80px;
+}
+
+#book1{
+    width: 408px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#book1:hover{
+    background-color: orangered;
+}
+.fa-solid{
+    color: orange;
+    /* display: flex; */
+   /* padding-left: 50px; */
+}
+
+#members{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+}
+
+
+#members1{
+    font-size: 40px;
+  color: rgb(22, 22, 46);
+  font-weight: bold;
+}
+#members2{
+font-size: 30px;
+
+}
+
+#span63{
+    position: absolute;
+top: 120px;
+transform: rotate(30deg);
+    width: 120px;
+    height: 3px;
+    background-color: orange;
+}
+#span64{
+    position: absolute;
+top: 120px;
+transform: rotate(-28deg);
+    width: 120px;
+    height: 3px;
+    background-color: orange;
+}
+
+#chef_mem{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+
+#chef1{
+    /* align-content: center; */
+    
+    /* background-color: aliceblue; */
+    width: 200px;
+    height: 200px;
+}
+#team1{
+    margin: 25px;
+    border-radius: 50%;
+}
+#chef2{
+    /* background-color: rgb(0, 0, 0); */
+    width: 200px;
+    height: 200px;
+}
+#team2{
+    border-radius: 50%;
+    margin: 25px;
+
+}
+
+#chef3{
+    /* background-color: rgb(0, 0, 0); */
+    width: 200px;
+    height: 200px;
+}
+#team3{
+    border-radius: 50%;
+    margin: 25px;
+
+}
+
+#chef4{
+    /* background-color: rgb(0, 0, 0); */
+    width: 200px;
+    height: 200px;
+}
+#team4{
+    border-radius: 50%;
+    margin: 25px;
+
+}
+
+
+.f1{
+position: relative;
+transform-style:preserve-3d ;
+
+transition: 1s;
+
+
+}
+.f1:hover{
+    transform: rotatex(180deg);
+    background-color: rgb(220, 82, 82);
+
+
+}
+.box{perspective: 600px;}
+.f1::after{
+    content: "chef borak is our best chef who make grilled meals";
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(220, 82, 82);
+
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform: rotatex(180deg);
+    box-shadow: 4px 4px 4px 0px black;
+
+}
+
+.f2{
+    position: relative;
+    transform-style:preserve-3d ;
+    
+    transition: 1s;
+    
+    
+    }
+    .f2:hover{
+        transform: rotatex(180deg);
+        background-color: rgb(220, 82, 82);
+
+
+    
+    }
+    .box{perspective: 600px;}
+    .f2::after{
+        content: "chef salt3 is our best chef who make pizza he is italian :') ";
+        font-size: 24px;
+        font-weight: bold;
+        background-color: rgb(220, 82, 82);
+
+        color: white;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
+        transform: rotatex(180deg);
+        box-shadow: 4px 4px 4px 0px black;
+
+    }
+
+
+
+
+    .f3{
+        position: relative;
+        transform-style:preserve-3d ;
+        
+        transition: 1s;
+        
+        
+        }
+        .f3:hover{
+            transform: rotatex(180deg);
+            background-color: rgb(220, 82, 82);
+
+
+        
+        }
+        .box{perspective: 600px;}
+        .f3::after{
+            content: "chef ramy is our best chef who make sea foods ";
+            font-size: 24px;
+            font-weight: bold;
+            background-color: rgb(220, 82, 82);
+
+
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backface-visibility: hidden;
+            transform: rotatex(180deg);
+            box-shadow: 4px 4px 4px 0px black;
+
+        }
+
+
+        .f4{
+            position: relative;
+            transform-style:preserve-3d ;
+            
+            transition: 1s;
+            
+            
+            }
+            .f4:hover{
+                transform: rotatex(180deg);
+                background-color: rgb(220, 82, 82);
+
+
+            
+            }
+            .box{perspective: 600px;}
+            .f4::after{
+                content: "chef steve is our best chef who makes french pasta's ";
+                font-size: 24px;
+                font-weight: bold;
+                background-color: rgb(220, 82, 82);
+
+                color: white;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                backface-visibility: hidden;
+                transform: rotatex(180deg);
+                box-shadow: 4px 4px 4px 0px black;
+            }
+#teste{
+    display: flex;
+   
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+            #tt{
+                font-size: 40px;
+                font-weight: bold;
+                color: orange;
+                font-family: "Dancing Script", cursive;
+            
+            }
+
+#span65{
+    width: 90px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 68px;
+    left: 850px;
+
+}
+#span66{
+    width: 90px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    top: 68px;
+    left: 565px;
+
+}
+#ttt{
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50px;
+}
+
+#clients_say{
+    display: flex;
+   /* justify-content: space-between; */
+    margin: 50px;
+    position: relative;
+
+  
+}
+#say1{
+width: 350px;
+height: 230px;
+/* background-color: white; */
+border: solid 1px black;
+border-radius: 5px;
+/* color: white; */
+text-align: center;
+align-content: center;
+font-size: 28px;
+font-weight: bold;
+margin-right:100px ;
+margin-left:100px ;
+
+}
+
+.d1{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    left: 390px;
+    color: skyblue;
+}
+
+
+#say2{width: 350px;
+    height: 230px;
+    /* background-color: #8d4a4a; */
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    font-size: 28px;
+    font-weight: bold;
+margin-right:100px ;
+
+    
+    }
+    .d2{
+        position: absolute;
+        top: 10px;
+        font-size: 30px;
+        left: 825px;
+        color: skyblue;
+    }
+    #say3{width: 350px;
+        height: 230px;
+        /* background-color: #8d4a4a; */
+        border: solid 1px black;
+        border-radius: 5px;
+        text-align: center;
+        align-content: center;
+        font-size: 28px;
+        font-weight: bold;
+margin-right:100px ;
+
+        
+        }
+        .sss{color: blue;}
+    #c1{
+        position: absolute;
+        top: 173px;
+        border-radius: 50%;
+        left: 110px;
+    }
+#span68{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 190px;
+    left: 180px;
+    /* color: white; */
+}
+
+#c2{
+    position: absolute;
+    top: 173px;
+    left: 540px;
+}
+#d3{
+    border-radius: 50%;
+
+}
+#span69{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 190px;
+    left:610px ;
+}
+.d4{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    left: 1260px;
+    color: skyblue;
+
+}
+#d5{
+    border-radius: 50%;
+}
+#span70{
+    position: absolute;
+    top: 173px;
+    left: 980px;
+
+}
+#span71{
+    
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 190px;
+    left:1050px ;
+}
+
+#say1:hover{
+    background-color: orange;
+    color: white;
+    width:355px ;
+    height: 235px;
+
+}
+#say2:hover{
+    background-color: orange;
+    color: white;
+    width:355px ;
+    /* height: 235px; */
+}
+#say3:hover{
+    background-color: orange;
+    color: white;
+    width:355px ;
+    height: 235px;
+}
+
+#doted{
+    margin: 30px;
+    display: flex;
+justify-content: center;   
+}
+
+#span72{
+    width: 10px;
+    height: 10px;
+    margin: 5PX;
+    border-radius: 50%;
+    border: 3PX solid orange;
+  /* background-color: orange; */
+}
+#span73{
+    width: 10px;
+    height: 10px;
+    margin: 5PX;
+    border-radius: 50%;
+    border: 3PX solid orange;
+  background-color: orange;
+}
+#span74{
+    width: 10px;
+    height: 10px;
+    margin: 5PX;
+    border-radius: 50%;
+    border: 3PX solid orange;
+  /* background-color: orange; */
+}
+
+
+#last{
+background-color: rgb(5, 1, 41);
+width: 90%;
+height:340px ;
+margin: 20px auto;
+position: relative;
+}
+
+#company{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+#q1{
+    color: orange;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+}
+#q2{
+    padding-bottom: 8px;
+}
+#q3{
+    width: 50px;
+    height: 1px;
+    background-color: orange;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+}
+
+#contact{
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+#t1{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: orange;
+    font-family: "Dancing Script", cursive;
+}
+#t2{
+    padding-bottom: 10px;
+}
+.mm{
+    color: azure;
+}
+#mm1{
+    /* color: blue; */
+}
+#t3{
+    width: 50px;
+    height: 1px;
+    background-color: orange;
+    position: absolute;
+    top: 25px;
+    left: 125px;
+}
+#open{
+    position: absolute;
+    top: 70px;
+    left: 1100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+#o1{
+    color: orange;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+}
+#o3{
+    padding-bottom: 10px;
+}
+#o2{
+    width: 50px;
+    height: 1px;
+    background-color: orange;
+    position: absolute;
+    top:25px;
+    left: 80px;
+}
+#final{
+    color: white;
+    font-size: 20px;
+    padding-left: 35%;
+    padding-bottom: 20px;
+}
+#copyr{
+    font-size: 30px;
+    color: beige;
+}
+
+
+
+
+/* 
+#space{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+} */
